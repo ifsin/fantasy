@@ -18,7 +18,7 @@
 ## Project Layout
 
 - `/` — Core package `fantasy`: Provider, LanguageModel, Agent, Content, Tool, errors, retry
-- `/providers/{openai,anthropic,google,bedrock,azure,openrouter,openaicompat,vercel,kronk}`
+- `/providers/{openai,anthropic,google,bedrock,azure,openrouter,openaicompat,vercel,kronk,ollama}`
 - `/object` — Typed structured outputs: `object.Generate[T]`, `object.Stream[T]`
 - `/schema`, `/jsonrepair` — JSON schema generation and repair utilities
 - `/providertests` — Integration tests with VCR cassettes in `testdata/`
